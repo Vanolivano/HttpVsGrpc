@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmark.Starter.MyBenchmark-20230415-000713</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.5, OS=Windows 10 (10.0.19044.2728/21H2/November2021Update)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK=7.0.202
+  [Host] : .NET 7.0.4 (7.0.423.11508), X64 RyuJIT AVX2
+</code></pre>
+<pre><code>Toolchain=InProcessNoEmitToolchain  IterationCount=1  LaunchCount=1  
+WarmupCount=1  
+</code></pre>
+
+<table>
+<thead><tr><th>    Method</th><th>RequestCount</th><th>Mean</th><th>Error</th><th>Result count</th><th>Comparison count</th>
+</tr>
+</thead><tbody><tr><td>GetHttpDataAsync</td><td>4000</td><td>29.09 s</td><td>NA</td><td>1000</td><td>15</td>
+</tr><tr><td>GetGrpcDataAsync</td><td>4000</td><td>23.91 s</td><td>NA</td><td>1000</td><td>15</td>
+</tr></tbody></table>
+</body>
+</html>

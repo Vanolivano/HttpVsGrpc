@@ -1,0 +1,264 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// ***** Done, took 00:00:00 (0.01 sec)   *****
+// Found 2 benchmarks:
+//   MyBenchmark.GetHttpDataAsync: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2) [RequestCount=100]
+//   MyBenchmark.GetGrpcDataAsync: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2) [RequestCount=100]
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MyBenchmark.GetHttpDataAsync: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2) [RequestCount=100]
+// *** Execute ***
+// Launch: 1 / 2
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.4 (7.0.423.11508), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2)
+
+OverheadJitting  1: 1 op, 75700.00 ns, 75.7000 us/op
+WorkloadJitting  1: 1 op, 929132100.00 ns, 929.1321 ms/op
+
+OverheadJitting  2: 1 op, 1800.00 ns, 1.8000 us/op
+WorkloadJitting  2: 1 op, 526685500.00 ns, 526.6855 ms/op
+
+WorkloadWarmup   1: 1 op, 502641000.00 ns, 502.6410 ms/op
+WorkloadWarmup   2: 1 op, 582178400.00 ns, 582.1784 ms/op
+
+WorkloadActual   1: 1 op, 524269500.00 ns, 524.2695 ms/op
+WorkloadActual   2: 1 op, 588243100.00 ns, 588.2431 ms/op
+WorkloadActual   3: 1 op, 549271000.00 ns, 549.2710 ms/op
+WorkloadActual   4: 1 op, 574890900.00 ns, 574.8909 ms/op
+WorkloadActual   5: 1 op, 583719500.00 ns, 583.7195 ms/op
+WorkloadActual   6: 1 op, 564304800.00 ns, 564.3048 ms/op
+WorkloadActual   7: 1 op, 578487600.00 ns, 578.4876 ms/op
+WorkloadActual   8: 1 op, 561363700.00 ns, 561.3637 ms/op
+WorkloadActual   9: 1 op, 519445200.00 ns, 519.4452 ms/op
+WorkloadActual  10: 1 op, 555415400.00 ns, 555.4154 ms/op
+
+WorkloadResult   1: 1 op, 524269500.00 ns, 524.2695 ms/op
+WorkloadResult   2: 1 op, 588243100.00 ns, 588.2431 ms/op
+WorkloadResult   3: 1 op, 549271000.00 ns, 549.2710 ms/op
+WorkloadResult   4: 1 op, 574890900.00 ns, 574.8909 ms/op
+WorkloadResult   5: 1 op, 583719500.00 ns, 583.7195 ms/op
+WorkloadResult   6: 1 op, 564304800.00 ns, 564.3048 ms/op
+WorkloadResult   7: 1 op, 578487600.00 ns, 578.4876 ms/op
+WorkloadResult   8: 1 op, 561363700.00 ns, 561.3637 ms/op
+WorkloadResult   9: 1 op, 519445200.00 ns, 519.4452 ms/op
+WorkloadResult  10: 1 op, 555415400.00 ns, 555.4154 ms/op
+
+// Launch: 2 / 2
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.4 (7.0.423.11508), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2)
+
+OverheadJitting  1: 1 op, 1500.00 ns, 1.5000 us/op
+WorkloadJitting  1: 1 op, 565336500.00 ns, 565.3365 ms/op
+
+OverheadJitting  2: 1 op, 2300.00 ns, 2.3000 us/op
+WorkloadJitting  2: 1 op, 522146400.00 ns, 522.1464 ms/op
+
+WorkloadWarmup   1: 1 op, 575835400.00 ns, 575.8354 ms/op
+WorkloadWarmup   2: 1 op, 525877500.00 ns, 525.8775 ms/op
+
+WorkloadActual   1: 1 op, 572888600.00 ns, 572.8886 ms/op
+WorkloadActual   2: 1 op, 541686200.00 ns, 541.6862 ms/op
+WorkloadActual   3: 1 op, 575978600.00 ns, 575.9786 ms/op
+WorkloadActual   4: 1 op, 579643600.00 ns, 579.6436 ms/op
+WorkloadActual   5: 1 op, 541728900.00 ns, 541.7289 ms/op
+WorkloadActual   6: 1 op, 544400600.00 ns, 544.4006 ms/op
+WorkloadActual   7: 1 op, 671148100.00 ns, 671.1481 ms/op
+WorkloadActual   8: 1 op, 539226000.00 ns, 539.2260 ms/op
+WorkloadActual   9: 1 op, 634980800.00 ns, 634.9808 ms/op
+WorkloadActual  10: 1 op, 627964200.00 ns, 627.9642 ms/op
+
+WorkloadResult   1: 1 op, 572888600.00 ns, 572.8886 ms/op
+WorkloadResult   2: 1 op, 541686200.00 ns, 541.6862 ms/op
+WorkloadResult   3: 1 op, 575978600.00 ns, 575.9786 ms/op
+WorkloadResult   4: 1 op, 579643600.00 ns, 579.6436 ms/op
+WorkloadResult   5: 1 op, 541728900.00 ns, 541.7289 ms/op
+WorkloadResult   6: 1 op, 544400600.00 ns, 544.4006 ms/op
+WorkloadResult   7: 1 op, 671148100.00 ns, 671.1481 ms/op
+WorkloadResult   8: 1 op, 539226000.00 ns, 539.2260 ms/op
+WorkloadResult   9: 1 op, 634980800.00 ns, 634.9808 ms/op
+WorkloadResult  10: 1 op, 627964200.00 ns, 627.9642 ms/op
+
+
+Mean = 571.453 ms, StdErr = 8.449 ms (1.48%), N = 20, StdDev = 37.784 ms
+Min = 519.445 ms, Q1 = 543.733 ms, Median = 568.597 ms, Q3 = 580.663 ms, Max = 671.148 ms
+IQR = 36.930 ms, LowerFence = 488.338 ms, UpperFence = 636.057 ms
+ConfidenceInterval = [538.643 ms; 604.263 ms] (CI 99.9%), Margin = 32.810 ms (5.74% of Mean)
+Skewness = 0.99, Kurtosis = 3.46, MValue = 2.44
+
+// ** Remained 1 (50,0 %) benchmark(s) to run. Estimated finish 2023-04-15 0:02 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MyBenchmark.GetGrpcDataAsync: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2) [RequestCount=100]
+// *** Execute ***
+// Launch: 1 / 2
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.4 (7.0.423.11508), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2)
+
+OverheadJitting  1: 1 op, 1100.00 ns, 1.1000 us/op
+WorkloadJitting  1: 1 op, 584340100.00 ns, 584.3401 ms/op
+
+OverheadJitting  2: 1 op, 800.00 ns, 800.0000 ns/op
+WorkloadJitting  2: 1 op, 465178500.00 ns, 465.1785 ms/op
+
+WorkloadWarmup   1: 1 op, 437537900.00 ns, 437.5379 ms/op
+WorkloadWarmup   2: 1 op, 440972600.00 ns, 440.9726 ms/op
+
+WorkloadActual   1: 1 op, 421060900.00 ns, 421.0609 ms/op
+WorkloadActual   2: 1 op, 472571500.00 ns, 472.5715 ms/op
+WorkloadActual   3: 1 op, 454344300.00 ns, 454.3443 ms/op
+WorkloadActual   4: 1 op, 431965900.00 ns, 431.9659 ms/op
+WorkloadActual   5: 1 op, 462790700.00 ns, 462.7907 ms/op
+WorkloadActual   6: 1 op, 417660700.00 ns, 417.6607 ms/op
+WorkloadActual   7: 1 op, 463993500.00 ns, 463.9935 ms/op
+WorkloadActual   8: 1 op, 440296000.00 ns, 440.2960 ms/op
+WorkloadActual   9: 1 op, 470560800.00 ns, 470.5608 ms/op
+WorkloadActual  10: 1 op, 493839000.00 ns, 493.8390 ms/op
+
+WorkloadResult   1: 1 op, 421060900.00 ns, 421.0609 ms/op
+WorkloadResult   2: 1 op, 472571500.00 ns, 472.5715 ms/op
+WorkloadResult   3: 1 op, 454344300.00 ns, 454.3443 ms/op
+WorkloadResult   4: 1 op, 431965900.00 ns, 431.9659 ms/op
+WorkloadResult   5: 1 op, 462790700.00 ns, 462.7907 ms/op
+WorkloadResult   6: 1 op, 417660700.00 ns, 417.6607 ms/op
+WorkloadResult   7: 1 op, 463993500.00 ns, 463.9935 ms/op
+WorkloadResult   8: 1 op, 440296000.00 ns, 440.2960 ms/op
+WorkloadResult   9: 1 op, 470560800.00 ns, 470.5608 ms/op
+WorkloadResult  10: 1 op, 493839000.00 ns, 493.8390 ms/op
+
+// Launch: 2 / 2
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.4 (7.0.423.11508), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2)
+
+OverheadJitting  1: 1 op, 1000.00 ns, 1.0000 us/op
+WorkloadJitting  1: 1 op, 499213600.00 ns, 499.2136 ms/op
+
+OverheadJitting  2: 1 op, 800.00 ns, 800.0000 ns/op
+WorkloadJitting  2: 1 op, 496623300.00 ns, 496.6233 ms/op
+
+WorkloadWarmup   1: 1 op, 499822300.00 ns, 499.8223 ms/op
+WorkloadWarmup   2: 1 op, 537404900.00 ns, 537.4049 ms/op
+
+WorkloadActual   1: 1 op, 469440200.00 ns, 469.4402 ms/op
+WorkloadActual   2: 1 op, 528223600.00 ns, 528.2236 ms/op
+WorkloadActual   3: 1 op, 557538000.00 ns, 557.5380 ms/op
+WorkloadActual   4: 1 op, 561593900.00 ns, 561.5939 ms/op
+WorkloadActual   5: 1 op, 489262900.00 ns, 489.2629 ms/op
+WorkloadActual   6: 1 op, 469468200.00 ns, 469.4682 ms/op
+WorkloadActual   7: 1 op, 542753000.00 ns, 542.7530 ms/op
+WorkloadActual   8: 1 op, 524789500.00 ns, 524.7895 ms/op
+WorkloadActual   9: 1 op, 489091500.00 ns, 489.0915 ms/op
+WorkloadActual  10: 1 op, 525588800.00 ns, 525.5888 ms/op
+
+WorkloadResult   1: 1 op, 469440200.00 ns, 469.4402 ms/op
+WorkloadResult   2: 1 op, 528223600.00 ns, 528.2236 ms/op
+WorkloadResult   3: 1 op, 557538000.00 ns, 557.5380 ms/op
+WorkloadResult   4: 1 op, 561593900.00 ns, 561.5939 ms/op
+WorkloadResult   5: 1 op, 489262900.00 ns, 489.2629 ms/op
+WorkloadResult   6: 1 op, 469468200.00 ns, 469.4682 ms/op
+WorkloadResult   7: 1 op, 542753000.00 ns, 542.7530 ms/op
+WorkloadResult   8: 1 op, 524789500.00 ns, 524.7895 ms/op
+WorkloadResult   9: 1 op, 489091500.00 ns, 489.0915 ms/op
+WorkloadResult  10: 1 op, 525588800.00 ns, 525.5888 ms/op
+
+
+Mean = 484.342 ms, StdErr = 9.709 ms (2.00%), N = 20, StdDev = 43.421 ms
+Min = 417.661 ms, Q1 = 460.679 ms, Median = 471.566 ms, Q3 = 524.989 ms, Max = 561.594 ms
+IQR = 64.310 ms, LowerFence = 364.214 ms, UpperFence = 621.455 ms
+ConfidenceInterval = [446.637 ms; 522.046 ms] (CI 99.9%), Margin = 37.705 ms (7.78% of Mean)
+Skewness = 0.27, Kurtosis = 1.88, MValue = 3.2
+
+// ** Remained 0 (0,0 %) benchmark(s) to run. Estimated finish 2023-04-15 0:02 (0h 0m from now) **
+Successfully reverted power plan (GUID: 381b4222-f694-41f0-9685-ff5bb260df2e FriendlyName: Сбалансированная)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmark.Starter.MyBenchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmark.Starter.MyBenchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Starter.MyBenchmark-report.html
+
+// * Detailed results *
+MyBenchmark.GetHttpDataAsync: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2) [RequestCount=100]
+Runtime = ; GC = 
+Mean = 571.453 ms, StdErr = 8.449 ms (1.48%), N = 20, StdDev = 37.784 ms
+Min = 519.445 ms, Q1 = 543.733 ms, Median = 568.597 ms, Q3 = 580.663 ms, Max = 671.148 ms
+IQR = 36.930 ms, LowerFence = 488.338 ms, UpperFence = 636.057 ms
+ConfidenceInterval = [538.643 ms; 604.263 ms] (CI 99.9%), Margin = 32.810 ms (5.74% of Mean)
+Skewness = 0.99, Kurtosis = 3.46, MValue = 2.44
+-------------------- Histogram --------------------
+[516.088 ms ; 553.560 ms) | @@@@@@@
+[553.560 ms ; 590.099 ms) | @@@@@@@@@@
+[590.099 ms ; 613.203 ms) | 
+[613.203 ms ; 649.742 ms) | @@
+[649.742 ms ; 689.418 ms) | @
+---------------------------------------------------
+
+MyBenchmark.GetGrpcDataAsync: Job-SWOXEV(Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2) [RequestCount=100]
+Runtime = ; GC = 
+Mean = 484.342 ms, StdErr = 9.709 ms (2.00%), N = 20, StdDev = 43.421 ms
+Min = 417.661 ms, Q1 = 460.679 ms, Median = 471.566 ms, Q3 = 524.989 ms, Max = 561.594 ms
+IQR = 64.310 ms, LowerFence = 364.214 ms, UpperFence = 621.455 ms
+ConfidenceInterval = [446.637 ms; 522.046 ms] (CI 99.9%), Margin = 37.705 ms (7.78% of Mean)
+Skewness = 0.27, Kurtosis = 1.88, MValue = 3.2
+-------------------- Histogram --------------------
+[407.983 ms ; 453.097 ms) | @@@@
+[453.097 ms ; 495.087 ms) | @@@@@@@@@@
+[495.087 ms ; 522.197 ms) | 
+[522.197 ms ; 564.187 ms) | @@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.5, OS=Windows 10 (10.0.19044.2728/21H2/November2021Update)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK=7.0.202
+  [Host] : .NET 7.0.4 (7.0.423.11508), X64 RyuJIT AVX2
+
+Toolchain=InProcessNoEmitToolchain  IterationCount=10  LaunchCount=2  
+WarmupCount=2  
+
+|           Method | RequestCount |     Mean |    Error |   StdDev | Result count | Comparison count |
+|----------------- |------------- |---------:|---------:|---------:|------------- |----------------- |
+| GetHttpDataAsync |          100 | 571.5 ms | 32.81 ms | 37.78 ms |         1000 |               15 |
+| GetGrpcDataAsync |          100 | 484.3 ms | 37.70 ms | 43.42 ms |         1000 |               15 |
+
+// * Warnings *
+MultimodalDistribution
+  MyBenchmark.GetGrpcDataAsync: Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2 -> It seems that the distribution can have several modes (mValue = 3.2)
+
+// * Hints *
+Outliers
+  MyBenchmark.GetHttpDataAsync: Toolchain=InProcessNoEmitToolchain, IterationCount=10, LaunchCount=2, WarmupCount=2 -> Something went wrong with outliers: Size(WorkloadActual) = 20, Size(WorkloadActual/Outliers) = 1, Size(Result) = 20), OutlierMode = RemoveUpper
+
+// * Legends *
+  RequestCount     : Value of the 'RequestCount' parameter
+  Mean             : Arithmetic mean of all measurements
+  Error            : Half of 99.9% confidence interval
+  StdDev           : Standard deviation of all measurements
+  Result count     : Custom 'Result count' tag column
+  Comparison count : Custom 'Comparison count' tag column
+  1 ms             : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:30 (30.55 sec), executed benchmarks: 2
+
+Global total time: 00:00:30 (30.91 sec), executed benchmarks: 2
+// * Artifacts cleanup *

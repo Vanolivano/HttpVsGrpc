@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package Grpc.Package;
+
+option csharp_namespace = "Grpc.Service";
+
+// The greeting service definition.
+service TestGrpcService {
+  rpc GetThousand (EmptyRequest) returns (IdentResultList);
+}
+
+// The request message containing the user's name.
+message EmptyRequest {
+}
+
+message Comparison {
+  string target = 1;
+  double relevance = 2;
+}
+
+message IdentResult {
+  string etalon = 1;
+  repeated Comparison comparisons = 2;
+}
+
+message IdentResultList {
+  repeated IdentResult identResults = 1;
+}
